@@ -32,10 +32,14 @@ section#noticias{
 	height: auto;
 	margin: 0 auto;
 }
+section#noticias ul{
+    display:flex;
+}
 section#noticias ul li{
 	list-style:none;
 	width: 350px;
 	height: 350px;
+    margin: 5px;
 }
 section#noticias img{
 	text-align: center;
@@ -68,6 +72,14 @@ section#noticias ul li a{
     background: red;
     display: block;
     padding: 5px 0;
+}
+section#noticias ul li a:hover{
+    background:blue;
+}
+section#noticias ul li p{
+    text-align: center;
+    margin: 15px 0;
+    
 }
  
 
