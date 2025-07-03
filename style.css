@@ -95,12 +95,16 @@ section#projetos ul li{
     border: 1px solid black;
     margin: 10px;
     position: relative;
+    border-radius:30px;
+    border: none;
 }
 section#projetos ul li img{
-
 }
 section#projetos ul li h3{
     position: absolute;
     bottom: 30px;
+    background: blue;
+    color: #fff;
+    padding: 10px;
 }
 
